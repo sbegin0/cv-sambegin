@@ -1,236 +1,137 @@
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about: "Full Stack Engineer dedicated to building high-quality products.",
+  name: "Sam Begin",
+  initials: "SB",
+  location: "Troy, NY, USA",
+  locationLink: "https://www.google.com/maps/place/Troy,+NY",
+  about: "CS & Economics @ RPI | SRE Intern @ Cisco Meraki",
   summary: (
     <>
-      Full Stack Engineer specializing in high-performance React applications,
-      scalable Node.js services, and real-time collaboration systems.
-      Experienced in technical architecture design and remote team leadership.
+      Computer Science and Economics student at Rensselaer Polytechnic Institute (Class of 2026) 
+      with experience in site reliability engineering, distributed systems, and cloud-native 
+      infrastructure. Skilled in Python, C++, Kubernetes, Terraform, and observability tools, with 
+      a passion for building scalable systems and contributing to open-source projects.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/104333709?v=4",
+  personalWebsiteUrl: "https://github.com/sbegin0",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "sam.begin9@gmail.com",
+    tel: "+18022745444",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/sbegin0",
         icon: "github",
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "http://www.linkedin.com/in/sam-begin/",
         icon: "linkedin",
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: "x",
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Rensselaer Polytechnic Institute",
+      degree: "B.S. Computer Science, Economics",
+      start: "2022",
+      end: "2026",
     },
   ],
   work: [
     {
-      company: "Motion",
-      link: "https://motionapp.com/",
-      badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
-      title: "Senior Software Engineer",
-      start: "2025",
-      end: null,
+      company: "Cisco Meraki",
+      link: "https://meraki.cisco.com/",
+      badges: ["SRE", "Distributed Systems", "Cloud"],
+      title: "Site Reliability Engineer Intern",
+      start: "Jun.",
+      end: "Aug. 2025",
       description: (
         <>
-          Working on internal AI agents platform allowing marketing specialists
-          to create AI workflows.
-        </>
-      ),
-    },
-    {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      start: "2024",
-      end: "2025",
-      description: (
-        <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          Developed async generative AI tool to improve on-call shift handovers, 
+          decreasing time by 80%.  
           <ul className="list-inside list-disc">
-            <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
-            </li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
-            </li>
+            <li>Built scalable backend infrastructure supporting 10B+ daily requests</li>
+            <li>Engineered monitoring, deployment, and reliability systems</li>
+            <li>Collaborated across teams on post-mortems and root-cause analysis</li>
           </ul>
         </>
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      start: "2021",
-      end: "2024",
+      company: "Linux Foundation – Istio Service Mesh",
+      link: "https://istio.io/",
+      badges: ["Open Source", "JavaScript", "Hugo"],
+      title: "Software Engineer Intern",
+      start: "Mar.",
+      end: "May 2025",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          Redesigned istio.io using JavaScript and Hugo to separate evergreen and 
+          versioned content.  
           <ul className="list-inside list-disc">
-            <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
-            </li>
-            <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
-            </li>
+            <li>Archived full site releases for clean version switching</li>
+            <li>Improved clarity and maintainability for developers worldwide</li>
           </ul>
         </>
       ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      start: "2015",
-      end: "2021",
+      company: "Rensselaer Center for Open Source",
+      link: "https://rcos.io/",
+      badges: ["Mentorship", "Cloud Native", "Cilium"],
+      title: "Student Mentor",
+      start: "Jan.",
+      end: "Dec. 2024",
       description: (
         <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
+          Mentored students on open-source projects and contributed to Cilium CNI.  
           <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
+            <li>Reviewed and graded 30+ projects, guided 20+ students</li>
+            <li>Developed CNI Test Suite for optimization and testing</li>
+            <li>Spoke at Cloud Native Security Con 2024</li>
           </ul>
         </>
       ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     },
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Python",
+    "C++",
+    "C",
+    "Java",
+    "Bash",
+    "Kubernetes",
+    "Terraform",
+    "AWS",
+    "Grafana",
+    "Prometheus",
+    "Helm",
+    "ElasticStack",
+    "CI/CD",
+    "Linux/Unix",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "eBPF Anomaly Detection in Encrypted Traffic",
+      techStack: ["C", "Python", "Ubuntu", "IDS Tools"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+        "Researched detecting anomalies in high-volume encrypted network traffic using eBPF. Compared with conventional IDS (Snort, Suricata, Zeek).",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "Research Summary",
+        href: "https://github.com/smoleyxd/kSecure",
       },
     },
     {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
+      title: "Cilium Container Network Interface",
+      techStack: ["Kubernetes", "Azure", "Terraform", "Prometheus", "Grafana"],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
+        "Led team contributing to Cilium CNI, developing a Test Suite for optimization and testing of networking parameters.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "Cilium Contribution",
+        href: "https://github.com/smoleyxd/RCOS-cilium",
       },
     },
   ],
