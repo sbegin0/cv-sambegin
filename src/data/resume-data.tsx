@@ -15,7 +15,7 @@ export const RESUME_DATA: ResumeData = {
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/104333709?v=4",
-  personalWebsiteUrl: "https://github.com/sbegin0",
+  personalWebsiteUrl: "https://sambegin.dev",
   contact: {
     email: "sam.begin9@gmail.com",
     tel: "+18022745444",

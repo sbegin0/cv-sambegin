@@ -4,7 +4,6 @@ import React from "react";
 import { Avatar } from "@/components/avatar";
 import { Button } from "@/components/ui/button";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
-import { XIcon } from "@/components/icons/x-icon";
 import { RESUME_DATA } from "@/data/resume-data";
 import type { ResumeIcon, IconType } from "@/lib/types";
 
@@ -12,7 +11,6 @@ import type { ResumeIcon, IconType } from "@/lib/types";
 const ICON_MAP: Record<IconType, React.ComponentType<React.SVGProps<SVGSVGElement>>> = {
   github: GitHubIcon,
   linkedin: LinkedInIcon,
-  x: XIcon,
   globe: GlobeIcon,
   mail: MailIcon,
   phone: PhoneIcon,
