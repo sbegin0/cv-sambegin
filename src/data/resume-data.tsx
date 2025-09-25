@@ -119,10 +119,6 @@ export const RESUME_DATA: ResumeData = {
       techStack: ["C", "Python", "Ubuntu", "IDS Tools"],
       description:
         "Researched detecting anomalies in high-volume encrypted network traffic using eBPF. Compared with conventional IDS (Snort, Suricata, Zeek).",
-      link: {
-        label: "Research Summary",
-        href: "https://github.com/smoleyxd/kSecure",
-      },
     },
     {
       title: "Cilium Container Network Interface",
