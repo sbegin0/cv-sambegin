@@ -118,7 +118,7 @@ export const RESUME_DATA: ResumeData = {
       title: "AI Focus Tracker",
       techStack: ["Next.js 15", "TypeScript", "MediaPipe", "Zustand", "Chart.js"],
       description:
-        "AI-powered productivity tool that tracks user focus in real-time using webcam-based ML models with MediaPipe FaceMesh (478 facial landmarks) and advanced iris-based gaze detection, achieving 30 FPS with 100% client-side processing for privacy. Developed hybrid gaze detection algorithm combining iris position tracking (70% weight) and head pose estimation (30% weight) with temporal smoothing filters, reducing false positives by implementing 1.5s confirmation delays.",
+        "AI-powered productivity tool that tracks user focus in real-time using webcam-based ML models with MediaPipe FaceMesh (478 facial landmarks) and advanced iris-based gaze detection, achieving 30 FPS with 100% client-side processing for privacy.",
       link: {
         label: "GitHub",
         href: "https://github.com/sbegin0/StudyBuddy",
